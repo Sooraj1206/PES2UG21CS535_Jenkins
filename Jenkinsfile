@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-              build 'PES2UG21CS527-1'
+              build 'PES2UG21CS535-1'
               sh 'g++ main.cpp -o output'
                 // Add shell script to compile .cpp file (use 'sh' for Unix-based systems, 'bat' for Windows)
             }
